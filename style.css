@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 85px;
+    border-bottom: 0.1px solid gray;
+    
+}
+nav{
+    margin-right: auto;
+    padding-left:40px;
+
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+   
+    
+}
+ul li a{
+    text-decoration: none;
+    color: gray
+}
+
+ul li a:hover{
+    text-decoration:underline;
+    transition: all .3s;
+   
+}
+
+
+#contact img{
+    width: 16px;
+    height: 16px;
+}
+
+#contact button:hover{
+    background:#efefef;
+    width: 50px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+     
+}
+main{
+    background: url(/images/backgroung.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 20px auto;
+    color: white;
+    padding-left: 100px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 500px;
+    width: 88%;
+    align-items: center;
+    padding-top: 70px;
+    line-height: 1.9;
+    overflow: scroll;
+}
+
+#contact button{
+    border: none;
+    color: orange;
+    background:none; 
+    margin-left: 3px;
+}
+h3{
+    font-size: 32px;
+}
+p{
+    font-size: 21px;
+    margin-bottom: 20px;
+    
+}
+form select{
+    width: 370px;
+    padding-left: 15px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-top:20px ;
+    color: gray;
+
+}
+form input{
+    width: 370px;
+    padding-left: 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-top:20px ;
+
+}
+
+#Make-Logo button {
+    
+    width: 370px;
+    border-radius:25px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-top:30px ;
+    color: white;
+    background: orange;
+
+}
+#Make-Logo button:hover{
+    cursor: pointer;
+    background: rgb(245, 213, 7);
+    transition: 0.3s;
+}
+#Make-Logo button:active{
+    cursor: progress;
+    background-color: grey;
+
+}
+footer p {
+    font-size: 16px;
+   text-align: center;
+   color: gray;
+}
+
+
